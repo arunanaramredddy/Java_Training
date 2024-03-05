@@ -8,7 +8,7 @@ class GradeA{
                 int boys = 45;
                 double gradeAPercentage = 50.0;
                 int gradeABoys = 20;
-                int gradeAStudents = (int) (totalStudents * (gradeAPercentage / 100));Calculating the total number of girls getting grade 'A'
+                int gradeAStudents = (int) (totalStudents * (gradeAPercentage / 100)); 
                 int gradeAGirls = gradeAStudents - gradeABoys;
                 System.out.println("Total number of girls getting grade 'A': " + gradeAGirls);
             }
