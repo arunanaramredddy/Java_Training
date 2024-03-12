@@ -19,7 +19,7 @@ public class EmpMain {
         employee.forEach(e -> System.out.println("ID: " + e.getId() + " Name: " + e.getName() + " Salary: " + e.getSalary()));
         ArrayList<String> empNames= employee.stream()
                 .map(e -> e.getName())
-                .map(e -> e.getName().toUpperCase)
+                .map(String::toUpperCase)
                 .collect(Collectors.toList());
         System.out.println("Employees names in uppercase");
         empNames.forEach(e -> System.out.println(e));
