@@ -18,7 +18,7 @@ public class Hollow_diamond_star_pattern {
         int n=sc.nextInt();
         
                 if (n % 2 == 0) {
-                    System.out.println("Please enter an odd number for the size of the diamond.");
+                    System.out.println("Enter an odd number for the size of the diamond.");
                     return;
                 }
                 int mid = n/ 2;
