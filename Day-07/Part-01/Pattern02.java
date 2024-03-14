@@ -1,8 +1,14 @@
-package com.bank;
+/*
+***************
+*   **   **   *
+*   **   **   *
+*   **   **   *
+***************
+*/
 
 import java.util.Scanner;
 
-public class Pattern {
+public class Pattern02 {
 
 
     public static void main(String[] args) {
